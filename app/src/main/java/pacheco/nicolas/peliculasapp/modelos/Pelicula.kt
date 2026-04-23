@@ -5,5 +5,6 @@ data class Pelicula(
     val titulo: String,
     val categoria: String,
     val duracion: String,
-    val sinopsis: String
+    val sinopsis: String,
+    var posterUri: String? = null
 )
